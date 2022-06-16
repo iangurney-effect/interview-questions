@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpQuestions", "CsharpQu
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonQuestions", "PythonQuestions\PythonQuestions.pyproj", "{DE8B5BBE-363A-495C-87A3-051E5830A885}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpUnitTests", "CsharpUnitTests\CsharpUnitTests.csproj", "{93C4CBAA-CF4A-4993-982E-369A651EF08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{03249FB3-9092-4399-86A7-F04592087142}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE8B5BBE-363A-495C-87A3-051E5830A885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE8B5BBE-363A-495C-87A3-051E5830A885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C4CBAA-CF4A-4993-982E-369A651EF08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C4CBAA-CF4A-4993-982E-369A651EF08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C4CBAA-CF4A-4993-982E-369A651EF08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C4CBAA-CF4A-4993-982E-369A651EF08D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
