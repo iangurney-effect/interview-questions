@@ -6,17 +6,9 @@ using System.Threading.Tasks;
 
 namespace InterviewQuestions
 {
-    class Program
+    public static class Questions
     {
-        static void Main(string[] args)
-        {
-            Question1();
-
-            Console.Write("Press any key to continue . . . ");
-            Console.ReadKey();
-        }
-
-        static void Question1()
+        public static void Question1()
         {
             // Can you sort this array in ascending value.
             int[] array = new int[] { 3, 4, 1, 5, 9, 2, 6, 0, 7, 8 };
@@ -27,14 +19,14 @@ namespace InterviewQuestions
             Console.WriteLine("[" + string.Join(", ", array) + "]");
         }
 
-        static int[] Answer1(int[] array)
+        public static int[] Answer1(int[] array)
         {
             // Add code here.
 
             return array;
         }
 
-        static void Question2()
+        public static void Question2()
         {
             // Can you write some code to differentiate y with respect to x for the following data set.
             double[] y = new double[] { 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5 };
@@ -46,28 +38,39 @@ namespace InterviewQuestions
             Console.WriteLine("[" + string.Join(", ", dydx) + "]");
         }
 
-        static double[] Answer2(double[] y, double[] x)
+        public static double[] Answer2(double[] y, double[] x)
         {
             // Add code here.
             return new double[] { double.NaN };
         }
 
-        static void Question3()
+        public static void Question3()
         {
             // Can you write some code to find value in x corresponding to the peak of the second differential in y with respect to x.
             double[] y = new double[] { 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5 };
             double[] x = new double[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            double peak = double.NaN;
+            double peak = Answer3(y, x);
 
             // Display answer.
             Console.WriteLine(peak);
         }
 
-        static double Answer3(double[] y, double[] x)
+        public static double Answer3(double[] y, double[] x)
         {
             // Add code here.
             return double.NaN;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Questions.Question1();
+
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey();
         }
     }
 }
