@@ -1,8 +1,20 @@
+def answer1(array):
+    # Add code here.
+    return array;
+
+def answer2(y, x):
+    # Add code here.
+    return None;
+
+def answer3(y, x):
+    # Add code here.
+    return None;
+
 def question1():
     # Can you sort this array in ascending value.
     array = [3, 4, 1, 5, 9, 2, 6, 0, 7, 8]
 
-    # Add code here.
+    array = answer1(array);
 
     # Display answer.
     print(array)
@@ -13,8 +25,7 @@ def question2():
     y = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
     x = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
 
-    # Add code here.
-    dydx = None;
+    dydx = answer2(y, x);
 
     # Display answer.
     print(dydx);
@@ -25,8 +36,7 @@ def question3():
     y = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
     x = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
 
-    # Add code here.
-    peak = None;
+    peak = answer3(y, x);
 
     # Display answer.
     print(peak);

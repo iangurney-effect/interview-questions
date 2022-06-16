@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpInterviewQuestions", "CsharpInterviewQuestions\CsharpInterviewQuestions.csproj", "{03249FB3-9092-4399-86A7-F04592087142}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpQuestions", "CsharpQuestions\CsharpQuestions.csproj", "{03249FB3-9092-4399-86A7-F04592087142}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonInterviewQuestions", "PythonInterviewQuestions\PythonInterviewQuestions.pyproj", "{DE8B5BBE-363A-495C-87A3-051E5830A885}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonQuestions", "PythonQuestions\PythonQuestions.pyproj", "{DE8B5BBE-363A-495C-87A3-051E5830A885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
