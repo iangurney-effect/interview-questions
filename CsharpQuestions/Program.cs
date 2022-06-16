@@ -12,6 +12,7 @@ namespace InterviewQuestions
         {
             Question1();
 
+            Console.Write("Press any key to continue . . . ");
             Console.ReadKey();
         }
 
@@ -23,7 +24,7 @@ namespace InterviewQuestions
             array = Answer1(array);
 
             // Display answer.
-            Console.WriteLine(string.Join(", ", array));
+            Console.WriteLine("[" + string.Join(", ", array) + "]");
         }
 
         static int[] Answer1(int[] array)
@@ -42,13 +43,13 @@ namespace InterviewQuestions
             double[] dydx = Answer2(y, x);
 
             // Display answer.
-            Console.WriteLine(string.Join(", ", dydx));
+            Console.WriteLine("[" + string.Join(", ", dydx) + "]");
         }
 
         static double[] Answer2(double[] y, double[] x)
         {
             // Add code here.
-            return new double[0];
+            return new double[] { double.NaN };
         }
 
         static void Question3()
